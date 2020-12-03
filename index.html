@@ -127,7 +127,7 @@
     <br>
           <center>
           	<span style="font-size:42px">SSN: Soft Shadow Network for Image Composition</span>
-	  		  <table width="600px" align="center">
+	  		  <table width="800px" align="center">
 	  			  <tbody><tr>
 	  	              <td width="100px" align="center">
 	  					<center>
@@ -163,24 +163,32 @@
 			  </tr></tbody></table>
           </center>
   		  <br>
-          <table width="850px" align="center">
+          <table width="900px" align="center">
               <tbody>
                   <tr>
-                      <td width="200px">
+                      <td width="256px">
                           <center><img class="rounded" src="figures/chair.gif" height="200"></center>
                       </td>
-                      <td width="200px">
+                      <td width="256px">
                           <center><img class="rounded" src="figures/car.gif" height="200"></center>
                       </td>
-                      <td width="200px">
+                      <td width="256px">
                           <center><img class="rounded" src="figures/radio.gif" height="200"></center>
                       </td>
-                      <td width="200px">
+                      <td width="256px">
                           <center><img class="rounded" src="figures/human.gif" height="200"></center>
                       </td>
                   </tr>
               </tbody>
           </table>
+
+  		  <br><br>
+		  <hr>
+
+  		  <center><h1>Abstract</h1></center><table width="850px" align="center">
+              We introduce an interactive Soft Shadow Network (SSN) to generates controllable soft shadows for image compositing.
+SSN takes a 2D object mask as input and thus is agnostic to image types such as painting and vector art. An environment light map is used to control the shadow's characteristics, such as angle and softness. SSN employs an Ambient Occlusion Prediction module to predict an intermediate ambient occlusion map, which can be further refined by the user to provides geometric cues to modulate the shadow generation.  To train our model, we design an efficient pipeline to produce diverse soft shadow training data using 3D object models. In addition, we propose an inverse shadow map representation to improve model training. We demonstrate that our model produces realistic soft shadows in real-time. Our user study shows that the generated shadows are often indistinguishable from shadows calculated by a physics-based renderer.
+  		  <br><br>
   		  <table width="850px" align="center">
   			  <tbody><tr>
   	              <td width="400px">
@@ -196,14 +204,6 @@
   	              </td>
 
   		  </tr></tbody></table>
-
-  		  <br><br>
-		  <hr>
-
-
-  		  <center><h1>Abstract</h1></center><table width="850px" align="center">
-              We introduce an interactive Soft Shadow Network (SSN) to generates controllable soft shadows for image compositing.
-SSN takes a 2D object mask as input and thus is agnostic to image types such as painting and vector art. An environment light map is used to control the shadow's characteristics, such as angle and softness. SSN employs an Ambient Occlusion Prediction module to predict an intermediate ambient occlusion map, which can be further refined by the user to provides geometric cues to modulate the shadow generation.  To train our model, we design an efficient pipeline to produce diverse soft shadow training data using 3D object models. In addition, we propose an inverse shadow map representation to improve model training. We demonstrate that our model produces realistic soft shadows in real-time. Our user study shows that the generated shadows are often indistinguishable from shadows calculated by a physics-based renderer.
   		  <br><br>
 		  <hr>
   		  <center><h1>Paper and Supplementary Material</h1></center><table width="425px" align="center">
